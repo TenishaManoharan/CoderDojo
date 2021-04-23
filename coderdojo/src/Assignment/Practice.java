@@ -22,6 +22,9 @@ public class Practice {
 		// TODO Auto-generated method stub
 		if (c < d)
 			System.out.println("c is less than d");
+		 else {
+				System.out.println("c is greater than d");
+			}
 	}
 
 	// Equal to //
@@ -29,7 +32,10 @@ public class Practice {
 	public void Equalto(int e, int f) {
 		// TODO Auto-generated method stub
 		if (e == f)
-			System.out.println("");
+			System.out.println("e is equal to f");
+		 else {
+				System.out.println("f or e is greater or less than than e");
+			}
 	}
 
 	public static void main(String args[]) {
